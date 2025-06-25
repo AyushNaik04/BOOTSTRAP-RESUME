@@ -1,0 +1,80 @@
+
+#name {
+  font-family: "Edu VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  padding: 20px;
+  text-align: center;
+  color: blanchedalmond;
+}
+body{
+    margin: 0;
+    
+}
+.top-container {
+    background-image: url(./images/Download\ premium\ image\ of\ Pastel\ mountain\ landscape\ background\,\ nature\ design\ \ by\ Adjima\ about\ aesthetic\ backgrounds\,\ background\,\ background\ design\,\ blue\ backgrounds\,\ and\ cute\ 6104689.jpg);
+    background-size: cover;       /* Scale image to cover screen */
+      background-repeat: no-repeat; /* Prevent tiling */
+      background-position: center;
+    text-align: center;
+    margin:0%;
+    
+}
+.col-lg-6{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ @media (min-width: 768px) {
+    .responsive-img {
+      margin-left: 100px;
+      margin-right: 0;
+    }
+  }
+  p.lead{
+  font-family: "Rubik", cursive;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+
+  }
+  .third{
+background: linear-gradient(270deg, #a1c4fd, #c2e9fb, #fbc2eb, #a6c1ee);
+  background-size: 200% 200%;
+  animation: gradient-animation 8s ease-in-out infinite;
+  display: flex;              /* optional: for centering content */
+  align-items: center;        /* vertical centering */
+  justify-content: center;    /* horizontal centering */
+  padding: 2rem;              /* add padding so content doesn’t touch edges */
+  box-sizing: border-box;
+
+  }
+  .second p{
+ 
+ 
+font-family: "Rubik", cursive;
+  font-optical-sizing: auto;
+  font-weight:weight;
+  font-style: normal;
+   margin-left: 10px;
+  margin-right: 10px;
+  }
+  .second{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+   .containera{
+    background: linear-gradient(135deg, #fceff9, #e0f7fa, #e8eaf6);
+  background-size: 600% 600%;
+  animation: gradientMove 15s ease infinite;
+  display: flex;              /* optional: for centering content */
+  align-items: center;        /* vertical centering */
+  justify-content: center;    /* horizontal centering */
+  padding: 2rem;              /* add padding so content doesn’t touch edges */
+  box-sizing: border-box;
+   }
